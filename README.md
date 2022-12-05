@@ -3,6 +3,11 @@ This are a Project to use VideoCaputreCard with an error in OBS (DecodeDeviceId 
 
 This Python Script open the Video Source in Full Screen.
 
+# Start without changes
+
+```
+./usbvideo.py
+```
 ```
 Default is --deviceid 0 --width 1920 --height 1080
 ```
@@ -22,6 +27,8 @@ For Example:
 ```
 
 You can Close the Window with Q (Quit)
+
+# Install Python Libraries
 
 ```
 pip install opencv-python
