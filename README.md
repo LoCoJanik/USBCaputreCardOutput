@@ -33,4 +33,5 @@ For Example with full options:
 ./usbvideo.py --deviceid 0 --width 1920 --height 1080
 ```
 
+# Quit the Fullscreen Window:
 You can Close the Window with Q (Quit)
