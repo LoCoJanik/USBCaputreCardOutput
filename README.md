@@ -21,7 +21,7 @@ Default is --deviceid 0 --width 1920 --height 1080
 
 When your CaptureCard have another Output Options you must try 0 - n equel of your VideoDevices
 
-When you are need the another Resolution Option:
+# When you are need another Resolution Options:
 
 ```
 --width 1920 --height 1080
