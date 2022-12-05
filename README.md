@@ -5,7 +5,7 @@ This Python Script open the Video Source in Full Screen.
 
 Default is --deviceid 0 --width 1920 --height 1080
 
-You Want anthoer Device you can use the arguments
+You Want anthoer Device you can use the arguments --deviceid 0 - n
 
 When your CaptureCard have another OutputDevice you must try 0 - n equel of your VideoDevices
 
