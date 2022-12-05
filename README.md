@@ -27,7 +27,7 @@ When your CaptureCard have another Output Options you must try 0 - n equel of yo
 --width 1920 --height 1080
 ```
 
-For Example with full options: 
+# For Example with full options: 
 
 ```
 ./usbvideo.py --deviceid 0 --width 1920 --height 1080
