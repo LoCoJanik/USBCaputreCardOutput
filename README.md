@@ -3,7 +3,13 @@ This are a Project to use VideoCaputreCard with an error in OBS (DecodeDeviceId 
 
 This Python Script open the Video Source in Fullscreen.
 
-# Start without changes
+# Install Python Libraries
+
+```
+pip install opencv-python
+```
+
+# Start without changes:
 
 ```
 ./usbvideo.py
@@ -11,6 +17,7 @@ This Python Script open the Video Source in Fullscreen.
 ```
 Default is --deviceid 0 --width 1920 --height 1080
 ```
+# Start with changes:
 
 When your CaptureCard have another Output Options you must try 0 - n equel of your VideoDevices
 
@@ -27,9 +34,3 @@ For Example with full options:
 ```
 
 You can Close the Window with Q (Quit)
-
-# Install Python Libraries
-
-```
-pip install opencv-python
-```
