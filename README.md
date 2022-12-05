@@ -29,7 +29,7 @@ When your CaptureCard have another Output Options you must try 0 - n equel of yo
 # When you are need another Resolution Options:
 
 ```
---width 1920 --height 1080
+./usbvideo.py --width 1920 --height 1080
 ```
 
 # For Example with full options: 
