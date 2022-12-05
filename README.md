@@ -37,4 +37,5 @@ You can Close the Window with Q-Button (Quit)-Button
 
 
 # Test:
-I have tested on Windows 10 & 11.
+
+Test only on Windows 10 & 11
