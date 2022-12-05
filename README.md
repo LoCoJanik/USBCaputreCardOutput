@@ -5,8 +5,14 @@ This Python Script open the Video Source in Full Screen.
 
 Default is --deviceid 0 --width 1920 --height 1080
 
-When your CaptureCard have another Output Options you must try 0 - n equel of your VideoDevices and you Resolution
+When your CaptureCard have another Output Options you must try 0 - n equel of your VideoDevices
 
-./usbvideo.py --deviceid 1 --width 1920 --height 1080
+When you are need the Resolution Option you need:
+
+--width 1920 --height 1080
+
+For Exempel: 
+
+./usbvideo.py --deviceid 0 --width 1920 --height 1080
 
 
