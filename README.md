@@ -35,3 +35,7 @@ For Example with full options:
 
 # Quit the Fullscreen Window:
 You can Close the Window with Q-Button (Quit)-Button
+
+
+# Test:
+I have tested on Windows 11 and Windows 10.
