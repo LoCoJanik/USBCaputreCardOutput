@@ -15,4 +15,4 @@ For Exempel:
 
 ./usbvideo.py --deviceid 0 --width 1920 --height 1080
 
-
+You can Close the Window with Q (Quit)
