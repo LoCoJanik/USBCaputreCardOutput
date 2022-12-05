@@ -15,7 +15,7 @@ When you are need the Resolution Option you need:
 --width 1920 --height 1080
 ```
 
-For Exempel: 
+For Example: 
 
 ```
 ./usbvideo.py --deviceid 0 --width 1920 --height 1080
