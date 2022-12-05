@@ -34,4 +34,4 @@ For Example with full options:
 ```
 
 # Quit the Fullscreen Window:
-You can Close the Window with Q (Quit)
+You can Close the Window with Q-Button (Quit)-Button
