@@ -1,5 +1,7 @@
 # USBCaputreCardOutput
 This are a Project to use VideoCaputreCard with an error in OBS (DecodeDeviceId failed)
+This Python Script open the Video Source in Full Screen.
+
 Default is --deviceid 0
 
 You Want anthoer Device you can use the arguments
