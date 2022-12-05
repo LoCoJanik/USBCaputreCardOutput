@@ -38,4 +38,4 @@ You can Close the Window with Q-Button (Quit)-Button
 
 
 # Test:
-I have tested on Windows 11 and Windows 10.
+I have tested on Windows 10 & 11.
