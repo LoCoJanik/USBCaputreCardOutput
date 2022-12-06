@@ -32,7 +32,7 @@ When your CaptureCard have another Output Options you must try 0 - n, equel of y
 ./usbvideo.py --width 1920 --height 1080
 ```
 ```
-./usbvideo.py --videodeviceid n --width 1920 --height 1080
+./usbvideo.py --videodeviceid n --audiodeviceid n --width 1920 --height 1080
 ```
 
 # Quit the Fullscreen Window:
