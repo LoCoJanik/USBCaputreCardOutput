@@ -16,20 +16,23 @@ pip install opencv-python
 ```
 
 ```
-Default is --deviceid 0 --width 1920 --height 1080
+Default is --videodeviceid 0 --audiodeviceid 0 --width 1920 --height 1080 
 ```
 # Start with changes:
 
 When your CaptureCard have another Output Options you must try 0 - n, equel of your VideoDevices
 
 ```
-./usbvideo.py --deviceid n
+./usbvideo.py --videodeviceid 0
+```
+```
+./usbvideo.py --videodeviceid 0 --audiodeviceid 0
 ```
 ```
 ./usbvideo.py --width 1920 --height 1080
 ```
 ```
-./usbvideo.py --deviceid n --width 1920 --height 1080
+./usbvideo.py --videodeviceid n --width 1920 --height 1080
 ```
 
 # Quit the Fullscreen Window:
