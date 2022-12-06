@@ -7,6 +7,7 @@ This Python Script open the Video Source in Fullscreen.
 
 ```
 pip install opencv-python
+pip install pyaudio
 ```
 
 # Start without changes:
