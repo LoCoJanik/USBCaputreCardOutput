@@ -17,7 +17,7 @@ pip install pyaudio
 ```
 
 ```
-Default is --videodeviceid 0 --audiodeviceid 0 --width 1920 --height 1080 
+Default is --videodeviceid 0 --audiodeviceid 0 --width 1920 --height 1080
 ```
 # Start with changes:
 
@@ -34,6 +34,9 @@ When your CaptureCard have another Output Options you must try 0 - n, equel of y
 ```
 ```
 ./usbvideo.py --videodeviceid n --audiodeviceid n --width x --height y
+```
+```
+./usbvideo.py --disableaudio
 ```
 
 # Quit the Fullscreen Window:
