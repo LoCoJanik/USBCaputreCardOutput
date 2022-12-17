@@ -38,6 +38,9 @@ When your CaptureCard have another Output Options you must try 0 - n, equel of y
 ```
 ./usbvideo.py --disableaudio
 ```
+```
+./usbvideo.py --videodeviceid n --disableaudio --width x --height y 
+```
 
 # Quit the Fullscreen Window:
 You can Close the Window with Q-Button (Quit)-Button
