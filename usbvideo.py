@@ -5,16 +5,18 @@ import numpy as np
 import threading
 
 class USBCapture:
-    def __init__(self, videodeviceid, audiodeviceid, width, height):
+    def __init__(self, videodeviceid, audiodeviceid, width, height, disableaudio):
         self.videodeviceid = int(videodeviceid)
         self.audiodeviceid = int(audiodeviceid)
         self.width = int(width)
         self.height = int(height)
+        self.disableaudio = disableaudio
         self.ThreadsIsStop = False
         video = threading.Thread(target=self.videoOutput)
         audio = threading.Thread(target=self.audioOutput)
         video.start()
-        audio.start()
+        if self.disableaudio != True:
+            audio.start()
 
 
     def audioOutput(self):
@@ -79,6 +81,7 @@ def gatherArgs():
                         help="resolution width in px")
     parser.add_argument('--height', metavar="HEIGHT", default="1080",
                         help="resolution width in px")
+    parser.add_argument('--disableaudio', dest='disableaudio', action='store_true')
 
 
 
@@ -92,4 +95,4 @@ def gatherArgs():
 if __name__ == '__main__':
     args = gatherArgs()
     print(args)
-    USBCapture(args.videodeviceid, args.audiodeviceid, args.width, args.height)
+    USBCapture(args.videodeviceid, args.audiodeviceid, args.width, args.height, args.disableaudio)
